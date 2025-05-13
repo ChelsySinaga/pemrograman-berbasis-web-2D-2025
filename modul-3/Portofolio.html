@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portofolio Saya</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <header class="fixed top-0 w-full bg-white shadow z-10 px-6 py-4 flex justify-between items-center">
+    <h1 class="text-2xl font-bold text-black">Chelsy Sinaga</h1>
+    <nav>
+      <ul class="flex space-x-6">
+        <li><a href="#about" class="hover:text-pink-500">Tentang</a></li>
+        <li><a href="#projects" class="hover:text-pink-500">Proyek</a></li>
+        <li><a href="#contact" class="hover:text-pink-500">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="flex flex-col items-center justify-center text-center h-screen bg-cover bg-center text-white" style="background-image: url('Latar1.jpg');">
+    <div class="bg-black bg-opacity-50 p-8 rounded-xl mt-16">
+      <h2 class="text-4xl font-bold mb-4">Halo, saya Chelsy Sinaga</h2>
+      <p class="text-xl mb-6">Mahasiswa Sistem Informasi</p>
+      <a href="#projects" class="bg-white text-black px-6 py-3 rounded-lg font-semibold hover:bg-gray-200">Lihat Proyek</a>
+    </div>
+  </section>
+
+  <section id="about" class="container mx-auto my-16 px-6">
+    <div class="flex flex-col md:flex-row items-center gap-8">
+      <img src="Foto Portofolio.jpg" alt="Foto Profil" class="rounded-2xl shadow-lg mb-6 md:mb-0 md:w-1/3">
+      <div>
+        <h3 class="text-3xl font-bold text-black mb-4">Tentang Saya</h3>
+        <p class="text-lg leading-relaxed">
+          Saya adalah seorang mahasiswa di bidang Sistem Informasi di Universitas Trunojoyo Madura. Saat ini saya sedang menempuh pendidikan semester 2. Saya suka belajar hal baru dan mengerjakan proyek-proyek kreatif.
+          Dengan latar belakang di bidang teknologi dan semangat untuk terus berkembang, saya berharap dapat memberikan kontribusi positif di dunia IT, khususnya dalam bidang pengembangan web dan keamanan sistem informasi.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="bg-gray-200 py-16">
+    <div class="container mx-auto px-6">
+      <h3 class="text-3xl font-bold text-center text-black mb-12">Proyek Saya</h3>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <img src="Kafe.jpeg" alt="Website Kafe" class="w-full">
+          <div class="p-6">
+            <h4 class="text-xl font-semibold mb-2 text-black">Website Kafe</h4>
+            <p class="text-gray-600">Membangun website kafe dengan fitur reservasi online menggunakan HTML dan CSS.</p>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <img src="To do list.jpg" alt="To-Do List" class="w-full">
+          <div class="p-6">
+            <h4 class="text-xl font-semibold mb-2 text-black">Aplikasi To-Do List</h4>
+            <p class="text-gray-600">Aplikasi untuk mengelola daftar tugas harian dengan fitur drag and drop.</p>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <img src="perpustakaan digital.jpeg" alt="Perpustakaan Digital" class="w-full">
+          <div class="p-6">
+            <h4 class="text-xl font-semibold mb-2 text-black">Perpustakaan Digital</h4>
+            <p class="text-gray-600">Web untuk mengelola data perpustakaan digital.</p>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="bg-white py-10">
+    <div class="container mx-auto px-6">
+      <h3 class="text-2xl font-bold text-center text-black mb-6">Hubungi Saya</h3>
+      <div class="text-center mb-6">
+        <p class="text-base mb-3">Email: <a href="mailto:chelsy@example.com" class="text-black hover:underline">chelsy@gmail.com</a></p>
+        <p class="text-base">Nomor HP: <a href="tel:+628123456789" class="text-black hover:underline">+62 812-3456-789</a></p>
+      </div>
+      <div class="border-t pt-4 text-center text-sm text-gray-500">
+        © 2025 Chelsy. Dibuat dengan TailwindCSS.
+      </div>
+    </div>
+  </section>
+  
+
+</body>
+</html>
